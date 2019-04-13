@@ -1,15 +1,16 @@
 This project contains the bare necessities to launch a project with gulp using browser-sync and SASS which will
 auto reload page on save.
 
-Prerequisites: node and npm
+Prerequisites: node and npm. Instructions for windows machine.
 
 Start the project with the following npm commands:
-npm init -y
-npm install gulp browser-sync gulp-sass --save-dev
-npm install bootstrap jquery popper.js --save
-npm install -g gulp-cli
+npm install
+gulp
 
-Adjust all the following paths in the gulpfile.js to match your project if you modify the existing template.
+Note: use control-C to stop the server.
+
+If you modify the existing template then adjust all the following paths in the gulpfile.js to match your project structure.
+
 Location of your source .scss files:
 ./src/scss/\*_/_.scss"
 
